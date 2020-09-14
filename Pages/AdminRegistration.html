@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Registration</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="../Support/vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../Support/vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="../Support/css/vendor.bundle.addons.css">
+  <!-- endinject -->
+  <!-- plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="../Support/css/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="../Support/images/W&Vmini.png" />
+</head>
+
+<body>
+  <div class="container-scroller">
+    <div class="container-fluid page-body-wrapper full-page-wrapper auth-page">
+      <div class="content-wrapper d-flex align-items-center auth register-bg-1 theme-one">
+        <div class="row w-100">
+              <div class="col-12 grid-margin">
+            <h2 class="text-center mb-4">Admin Registration</h2>
+            <div class="auto-form-wrapper">
+              
+              <form action="RegisterAdminServer" method="post">
+              <input type="hidden" name="action" value="add" >     
+              
+              <div class="card">
+                <div class="card-body">
+                    <p class="card-description">
+                      Personal info
+                    </p>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">First Name</label>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control" placeholder="First Name" name="FirstName" required>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Last Name</label>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control" placeholder="Last Name" name="LastName" required>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Date of Birth</label>
+                          <div class="col-sm-9">
+                            <input type="date" class="form-control" placeholder="Eg: YYYY-MM-DD"" name="DateOfBirth" required>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                        
+                      <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Email</label>
+                          <div class="col-sm-9">
+                            <input type="email" class="form-control" placeholder="Email" name="Email" required>
+                          </div>
+                        </div>
+                      </div>
+                               
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Username</label>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control" placeholder="User Name" name="UserName" required>
+                          </div>
+                        </div>
+                      </div>
+                    
+                    
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Password</label>
+                          <div class="col-sm-9">
+                            <input type="password" class="form-control" placeholder="Password" name="Password" required>
+                          </div>
+                        </div>
+                      </div>
+                          
+                    </div>
+                <!--    </form> -->
+                </div>
+              </div>
+              <div class="form-group d-flex justify-content-center">
+                  <div class="form-check form-check-flat mt-0">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" checked> I agree to the terms
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="submit" value="Register" id="submit" class="btn btn-primary submit-btn btn-block" >
+                </div>
+                <div class="text-block text-center my-3">
+                  <span class="text-small font-weight-semibold">Already have and account ?</span>
+                  <a href="login.html" class="text-black text-small">Login</a> <br/>
+                  <a href="../index.html" class="text-black text-small">Cancel</a> <br/>
+                   <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2019
+              <a href="#" target="_blank">Webb&Vetted</a>. All rights reserved.</span>
+                <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Designed by <br/> Baone Nelson
+                  </span> 
+                </div>
+                  
+                  
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- content-wrapper ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <!-- plugins:js -->
+  <script src="../Support/vendors/js/vendor.bundle.base.js"></script>
+  <script src="../Support/vendors/js/vendor.bundle.addons.js"></script>
+  <!-- endinject -->
+  <!-- inject:js -->
+  <script src="../Support/js/off-canvas.js"></script>
+  <script src="../Support/js/misc.js"></script>
+  <!-- endinject -->
+</body>
+
+</html>
